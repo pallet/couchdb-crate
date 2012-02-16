@@ -6,7 +6,7 @@
    [pallet.action.service :as service]
    [pallet.argument :as argument]
    [pallet.session :as session]
-   [clojure.contrib.json :as json])
+   [clojure.data.json :as json])
   (:use
    pallet.thread-expr))
 

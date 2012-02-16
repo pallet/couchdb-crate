@@ -13,4 +13,20 @@
   </scm>
   <artifactId>couchdb</artifactId>
   <version>0.7.0-SNAPSHOT</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>data.json</artifactId>
+      <version>0.1.2</version>
+    </dependency>
+  </dependencies>
+
+  <!-- make sure we can find the parent pom -->
+  <repositories>
+    <repository>
+      <id>sonatype</id>
+      <url>http://oss.sonatype.org/content/repositories/releases</url>
+    </repository>
+  </repositories>
 </project>
