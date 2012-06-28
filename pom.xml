@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.cloudhoist</groupId>
     <artifactId>pallet-crate-pom</artifactId>
-    <version>0.7.1-SNAPSHOT</version>
+    <version>0.7.1</version>
   </parent>
   <scm>
     <connection>scm:git:git://github.com/pallet/couchdb-crate.git</connection>
@@ -22,11 +22,4 @@
     </dependency>
   </dependencies>
 
-  <!-- make sure we can find the parent pom -->
-  <repositories>
-    <repository>
-      <id>sonatype</id>
-      <url>http://oss.sonatype.org/content/repositories/releases</url>
-    </repository>
-  </repositories>
 </project>
